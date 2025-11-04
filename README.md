@@ -31,9 +31,13 @@ Check out force-std and OZ-contracts are there with ls .lib and upload .env file
 ## 2) Set up .env file:
 
 PRIVATE_KEY=0x...
+
 BASE_SEPOLIA_RPC=https://base-sepolia.drpc.org
+
 PASSPORT_ADDR=(after deployment)
+
 ADMIN=0xYourAdminAddress
+
 RECIPIENT_ADDR=(for issuing)
 
 ## 3) Deploy and test
@@ -80,6 +84,10 @@ forge verify-contract \
 
 metadata CID (JSON stored in Pinata/IPFS):
 ipfs://CID
+
+<p align="center">
+  <img src="https://crimson-peaceful-impala-136.mypinata.cloud/ipfs/bafkreig2yybd77y6qe7dyl22rzd7pza3i5vqmme5kkjkfgxlsaxte6pmha" width="350">
+</p>
 
 run:
 
